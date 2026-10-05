@@ -571,6 +571,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2514684144959065796}
     m_Modifications:
+    - target: {fileID: -1290276289247236524, guid: 49f51829003a744458166dd20dde1fde, type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: 1f1466a689cbf3d4194a3e273476bbb3, type: 3}
     - target: {fileID: 5129860474513118098, guid: 49f51829003a744458166dd20dde1fde, type: 3}
       propertyPath: m_Name
       value: PurpleGoalie
@@ -637,6 +641,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2514684144959065796}
     m_Modifications:
+    - target: {fileID: 5156407913395482203, guid: 76dbddb6ad21e1b4194694a1a694cf1f, type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: db61a8cb801b5f147b19330cd3a3778a, type: 3}
     - target: {fileID: 8293877687862343810, guid: 76dbddb6ad21e1b4194694a1a694cf1f, type: 3}
       propertyPath: m_Name
       value: BlueStriker (1)
@@ -1154,6 +1162,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2514684144959065796}
     m_Modifications:
+    - target: {fileID: 5156407913395482203, guid: 76dbddb6ad21e1b4194694a1a694cf1f, type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: db61a8cb801b5f147b19330cd3a3778a, type: 3}
     - target: {fileID: 8293877687862343810, guid: 76dbddb6ad21e1b4194694a1a694cf1f, type: 3}
       propertyPath: m_Name
       value: BlueStriker

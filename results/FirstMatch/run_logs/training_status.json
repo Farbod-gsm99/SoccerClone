@@ -1,0 +1,89 @@
+{
+    "Goalie": {
+        "checkpoints": [
+            {
+                "steps": 499796,
+                "file_path": "results\\FirstMatch\\Goalie\\Goalie-499796.onnx",
+                "reward": 0.13063382222753717,
+                "creation_time": 1791115843.7949255,
+                "auxillary_file_paths": [
+                    "results\\FirstMatch\\Goalie\\Goalie-499796.pt"
+                ]
+            },
+            {
+                "steps": 999050,
+                "file_path": "results\\FirstMatch\\Goalie\\Goalie-999050.onnx",
+                "reward": 0.036050494546361736,
+                "creation_time": 1791118369.4002514,
+                "auxillary_file_paths": [
+                    "results\\FirstMatch\\Goalie\\Goalie-999050.pt"
+                ]
+            },
+            {
+                "steps": 1039959,
+                "file_path": "results\\FirstMatch\\Goalie\\Goalie-1039959.onnx",
+                "reward": 0.017679535433235496,
+                "creation_time": 1791118938.5423844,
+                "auxillary_file_paths": [
+                    "results\\FirstMatch\\Goalie\\Goalie-1039959.pt"
+                ]
+            }
+        ],
+        "elo": 1200.0,
+        "final_checkpoint": {
+            "steps": 1039959,
+            "file_path": "results\\FirstMatch\\Goalie.onnx",
+            "reward": 0.017679535433235496,
+            "creation_time": 1791118938.5423844,
+            "auxillary_file_paths": [
+                "results\\FirstMatch\\Goalie\\Goalie-1039959.pt"
+            ]
+        }
+    },
+    "Striker": {
+        "checkpoints": [
+            {
+                "steps": 499922,
+                "file_path": "results\\FirstMatch\\Striker\\Striker-499922.onnx",
+                "reward": -0.03942985254221819,
+                "creation_time": 1791116381.933213,
+                "auxillary_file_paths": [
+                    "results\\FirstMatch\\Striker\\Striker-499922.pt"
+                ]
+            },
+            {
+                "steps": 999978,
+                "file_path": "results\\FirstMatch\\Striker\\Striker-999978.onnx",
+                "reward": -0.014390327961306897,
+                "creation_time": 1791118795.6671557,
+                "auxillary_file_paths": [
+                    "results\\FirstMatch\\Striker\\Striker-999978.pt"
+                ]
+            },
+            {
+                "steps": 1002220,
+                "file_path": "results\\FirstMatch\\Striker\\Striker-1002220.onnx",
+                "reward": -0.0159733314467303,
+                "creation_time": 1791118938.8126783,
+                "auxillary_file_paths": [
+                    "results\\FirstMatch\\Striker\\Striker-1002220.pt"
+                ]
+            }
+        ],
+        "elo": 1200.0,
+        "final_checkpoint": {
+            "steps": 1002220,
+            "file_path": "results\\FirstMatch\\Striker.onnx",
+            "reward": -0.0159733314467303,
+            "creation_time": 1791118938.8126783,
+            "auxillary_file_paths": [
+                "results\\FirstMatch\\Striker\\Striker-1002220.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.2.0.dev0",
+        "torch_version": "2.2.2+cu121"
+    }
+}

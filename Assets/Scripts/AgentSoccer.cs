@@ -1,9 +1,7 @@
-using System.Numerics;
-using System.Reflection.Metadata;
-using System.Runtime.Serialization;
-using System.Security.Cryptography.X509Certificates;
-using System.Threading.Tasks.Dataflow;
 using UnityEngine;
+using Unity.MLAgents;
+using Unity.MLAgents.Actuators;
+using Unity.MLAgents.Policies;
 
 
 public enum Team
@@ -23,7 +21,8 @@ public class AgentSoccer : Agent
     float m_KickPower;
     const float k_Power = 2000f;
 
-    public RigidBody agentRb;
+    [HideInInspector]
+    public Rigidbody agentRb;
     
     public Position position;
 
@@ -34,6 +33,8 @@ public class AgentSoccer : Agent
         Generic
     }
     public Team team;
+    public float rotSign;
+    public Vector3 initialPos;
 
 
     public override void Initialize()
@@ -52,14 +53,14 @@ public class AgentSoccer : Agent
         if (m_BehaviorParameters.TeamId == (int)Team.Blue)
         {
             team = Team.Blue;
-            initialPos = new Vector3(transform.position.x - 5f, .5f, transform.position.z);
-            rotSign = 1f;
+            initialPos = new Vector3(transform.position.x + 5f, transform.position.y, transform.position.z);
+            rotSign = -1f;
         }
         else
         {
             team = Team.Purple;
-            initialPos = new Vector3(transform.position.x - 5f, .5f, transform.position.z);
-            rotSign = -1f;
+            initialPos = new Vector3(transform.position.x - 5f, transform.position.y, transform.position.z);
+            rotSign = 1f;
         }
         if (position == Position.Goalie)
         {
@@ -78,8 +79,8 @@ public class AgentSoccer : Agent
         }
 
         m_soccerSettings = FindFirstObjectByType<SoccerSettings>();
-        agentRb = GetComponent<RigidBody>();
-        agentRb.MaxAngularVelocity = 500;
+        agentRb = GetComponent<Rigidbody>();
+        agentRb.maxAngularVelocity = 500f;
 
         m_ResetParams = Academy.Instance.EnvironmentParameters;
     }
@@ -101,8 +102,8 @@ public class AgentSoccer : Agent
 
     public void MoveAgent(ActionSegment<int> act)
     {
-        var dirToGo = Vector3.Zero;
-        var rotateDir = Vector3.Zero;
+        var dirToGo = Vector3.zero;
+        var rotateDir = Vector3.zero;
 
         var forwardAxis = act[0];
         var rightAxis = act[1];
@@ -139,7 +140,7 @@ public class AgentSoccer : Agent
                 break;
         }
         
-        transform.Rotate(rotateDir, Time.deltaTime * 100f);
+        transform.Rotate(rotateDir * (Time.deltaTime * 100f), Space.World);
         agentRb.AddForce(dirToGo * m_soccerSettings.agentRunSpeed, ForceMode.VelocityChange);
     }
 
@@ -177,7 +178,7 @@ public class AgentSoccer : Agent
     void OnCollisionEnter(Collision col)
     {
         var force = k_Power * m_KickPower;
-        if (position == position.Goalie)
+        if (position == Position.Goalie)
         {
             force = k_Power;
         }
@@ -186,7 +187,7 @@ public class AgentSoccer : Agent
             AddReward(.2f * m_BallTouch);
             var dir = col.contacts[0].point - transform.position;
             dir = dir.normalized;
-            c.gameObject.GetComponent<Rigidbody>().AddForce(dir * force);
+            col.gameObject.GetComponent<Rigidbody>().AddForce(dir * force);
         }
     }
 

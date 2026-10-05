@@ -9,6 +9,7 @@ TagManager:
   - purpleAgent
   - purpleGoal
   - ball
+  - blueGoal
   layers:
   - Default
   - TransparentFX

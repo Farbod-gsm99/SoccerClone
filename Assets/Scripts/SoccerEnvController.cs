@@ -1,4 +1,5 @@
-using System.Numerics;
+using System.Collections.Generic;
+using Unity.MLAgents;
 using UnityEngine;
 
 public class SoccerEnvController : MonoBehaviour
@@ -12,7 +13,7 @@ public class SoccerEnvController : MonoBehaviour
         [HideInInspector]
         public Quaternion StartingRot;
         [HideInInspector]
-        public RigidBody Rb;
+        public Rigidbody Rb;
     }
 
     private SimpleMultiAgentGroup m_BlueAgentGroup;
@@ -21,7 +22,7 @@ public class SoccerEnvController : MonoBehaviour
     private SoccerSettings m_SoccerSettings;
     public GameObject ball;
     [HideInInspector]
-    public RigidBody ballRb;
+    public Rigidbody ballRb;
     Vector3 m_BallStartingPos;
     private int m_ResetTimer;
     public int MaxEnvironmentSteps = 25000;
@@ -40,7 +41,7 @@ public class SoccerEnvController : MonoBehaviour
         {
             item.StartingPos = item.Agent.transform.position;
             item.StartingRot = item.Agent.transform.rotation;
-            item.Rb = item.Agent.GetComponent<RigidBody>();
+            item.Rb = item.Agent.GetComponent<Rigidbody>();
             if (item.Agent.team == Team.Blue)
             {
                 m_BlueAgentGroup.RegisterAgent(item.Agent);
@@ -78,8 +79,8 @@ public class SoccerEnvController : MonoBehaviour
             var newRot = Quaternion.Euler(0, rot, 0);
             item.Agent.transform.SetPositionAndRotation(newStartPos, newRot);
 
-            item.Rb.linearVelocity = Vector3.Zero;
-            item.Rb.angularVelocity = Vector3.Zero;
+            item.Rb.linearVelocity = Vector3.zero;
+            item.Rb.angularVelocity = Vector3.zero;
         }
 
         ResetBall();
@@ -91,14 +92,14 @@ public class SoccerEnvController : MonoBehaviour
         var RandomPosZ = Random.Range(-2.5f, 2.5f);
         ball.transform.position = m_BallStartingPos + new Vector3(RandomPosX, 0f, RandomPosZ);
 
-        ballRb.linearVelocity = Vector3.Zero;
-        ballRb.angularVelocity = Vector3.Zero;
+        ballRb.linearVelocity = Vector3.zero;
+        ballRb.angularVelocity = Vector3.zero;
     }
 
 
     public void GoalTouched(Team scoredTeam)
     {
-        if (scoredTeam == scoredTeam.Blue)
+        if (scoredTeam == Team.Blue)
         {
             m_BlueAgentGroup.AddGroupReward(1 - (float)m_ResetTimer / MaxEnvironmentSteps);
             m_PurpleAgentGroup.AddGroupReward(-1);
