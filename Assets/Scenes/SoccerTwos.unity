@@ -119,7 +119,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &2171229
+--- !u!1001 &163956572
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -127,33 +127,78 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 291494176642729782, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: team
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3078371836334932961, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: team
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3440497311696755789, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: m_BehaviorName
-      value: SoccerTwos
-      objectReference: {fileID: 0}
     - target: {fileID: 4027539138356193681, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
       propertyPath: m_Name
-      value: SoccerFieldTwos (1)
+      value: SoccerFieldTwos
       objectReference: {fileID: 0}
     - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.068123
+      value: 21.27327
       objectReference: {fileID: 0}
     - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.028163
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 25.7
+      value: 2.845786
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
+--- !u!1001 &189018622
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4027539138356193681, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
+      propertyPath: m_Name
+      value: SoccerFieldTwos (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 21.27327
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 61
       objectReference: {fileID: 0}
     - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
       propertyPath: m_LocalRotation.w
@@ -325,75 +370,6 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
---- !u!1001 &339309363
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 291494176642729782, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: team
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3078371836334932961, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: team
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3440497311696755789, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: m_BehaviorName
-      value: SoccerTwos
-      objectReference: {fileID: 0}
-    - target: {fileID: 4027539138356193681, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: m_Name
-      value: SoccerFieldTwos (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -39.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -8.028163
-      objectReference: {fileID: 0}
-    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 44.468338
-      objectReference: {fileID: 0}
-    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -515,6 +491,63 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 1
+--- !u!1001 &431294198
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4027539138356193681, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
+      propertyPath: m_Name
+      value: SoccerFieldTwos (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 21.27327
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 40.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
 --- !u!1 &474926038
 GameObject:
   m_ObjectHideFlags: 0
@@ -563,7 +596,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &703331974
+--- !u!1001 &521518617
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -571,33 +604,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 291494176642729782, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: team
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3078371836334932961, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: team
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3440497311696755789, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: m_BehaviorName
-      value: SoccerTwos
-      objectReference: {fileID: 0}
     - target: {fileID: 4027539138356193681, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
       propertyPath: m_Name
-      value: SoccerFieldTwos (4)
+      value: SoccerFieldTwos (5)
       objectReference: {fileID: 0}
     - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -39.8
+      value: -16.8
       objectReference: {fileID: 0}
     - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.028163
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7.068341
+      value: 21.5
       objectReference: {fileID: 0}
     - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
       propertyPath: m_LocalRotation.w
@@ -681,7 +702,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &860690208
+--- !u!1001 &905226180
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -689,33 +710,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 291494176642729782, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: team
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3078371836334932961, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: team
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3440497311696755789, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: m_BehaviorName
-      value: SoccerTwos
-      objectReference: {fileID: 0}
     - target: {fileID: 4027539138356193681, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
       propertyPath: m_Name
-      value: SoccerFieldTwos (2)
+      value: SoccerFieldTwos (1)
       objectReference: {fileID: 0}
     - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.068123
+      value: 21.27327
       objectReference: {fileID: 0}
     - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.028163
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 44.468338
+      value: 21.5
       objectReference: {fileID: 0}
     - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
       propertyPath: m_LocalRotation.w
@@ -750,7 +759,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
---- !u!1001 &1000616732
+--- !u!1001 &947319826
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -758,33 +767,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 291494176642729782, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: team
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3078371836334932961, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: team
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3440497311696755789, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: m_BehaviorName
-      value: SoccerTwos
-      objectReference: {fileID: 0}
     - target: {fileID: 4027539138356193681, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
       propertyPath: m_Name
-      value: SoccerFieldTwos (6)
+      value: SoccerFieldTwos (4)
       objectReference: {fileID: 0}
     - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -39.8
+      value: -16.8
       objectReference: {fileID: 0}
     - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.028163
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 25.7
+      value: 2.845786
       objectReference: {fileID: 0}
     - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
       propertyPath: m_LocalRotation.w
@@ -819,7 +816,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
---- !u!1001 &1455308193
+--- !u!1001 &1137225172
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -827,102 +824,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 291494176642729782, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: team
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3078371836334932961, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: team
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3440497311696755789, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: m_BehaviorName
-      value: SoccerTwos
-      objectReference: {fileID: 0}
-    - target: {fileID: 4027539138356193681, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: m_Name
-      value: SoccerFieldTwos (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.068123
-      objectReference: {fileID: 0}
-    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -8.028163
-      objectReference: {fileID: 0}
-    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 63.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
---- !u!1001 &1543106212
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 291494176642729782, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: team
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3078371836334932961, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: team
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3440497311696755789, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: m_BehaviorName
-      value: SoccerTwos
-      objectReference: {fileID: 0}
     - target: {fileID: 4027539138356193681, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
       propertyPath: m_Name
       value: SoccerFieldTwos (7)
       objectReference: {fileID: 0}
     - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -39.8
+      value: -16.8
       objectReference: {fileID: 0}
     - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.028163
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 63.1
+      value: 61
       objectReference: {fileID: 0}
     - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
       propertyPath: m_LocalRotation.w
@@ -957,7 +873,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
---- !u!1001 &3306613762162874232
+--- !u!1001 &2145278498
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -965,33 +881,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 291494176642729782, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: team
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3078371836334932961, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: team
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3440497311696755789, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
-      propertyPath: m_BehaviorName
-      value: SoccerTwos
-      objectReference: {fileID: 0}
     - target: {fileID: 4027539138356193681, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
       propertyPath: m_Name
-      value: SoccerFieldTwos
+      value: SoccerFieldTwos (6)
       objectReference: {fileID: 0}
     - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.068123
+      value: -16.8
       objectReference: {fileID: 0}
     - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.028163
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7.068341
+      value: 40.9
       objectReference: {fileID: 0}
     - target: {fileID: 6556301345517485158, guid: b87b49d9c6a84b44c99c5ff311de3b97, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1034,11 +938,11 @@ SceneRoots:
   - {fileID: 474926040}
   - {fileID: 410087041}
   - {fileID: 832575519}
-  - {fileID: 3306613762162874232}
-  - {fileID: 703331974}
-  - {fileID: 860690208}
-  - {fileID: 339309363}
-  - {fileID: 2171229}
-  - {fileID: 1000616732}
-  - {fileID: 1455308193}
-  - {fileID: 1543106212}
+  - {fileID: 163956572}
+  - {fileID: 947319826}
+  - {fileID: 905226180}
+  - {fileID: 521518617}
+  - {fileID: 431294198}
+  - {fileID: 2145278498}
+  - {fileID: 189018622}
+  - {fileID: 1137225172}

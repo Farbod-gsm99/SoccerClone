@@ -1190,6 +1190,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 58186671476417543aa46b41b9bff979, type: 2}
+    - target: {fileID: 4623880311552786313, guid: 11c6fe58c458d6a4e929549419d46a7d, type: 3}
+      propertyPath: team
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8293877687862343810, guid: 11c6fe58c458d6a4e929549419d46a7d, type: 3}
       propertyPath: m_Name
       value: GenericPurpleAgent
@@ -1269,7 +1273,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5156407913395482203, guid: 11c6fe58c458d6a4e929549419d46a7d, type: 3}
       propertyPath: m_BehaviorName
-      value: Striker
+      value: SoccerTwos
       objectReference: {fileID: 0}
     - target: {fileID: 8293877687862343810, guid: 11c6fe58c458d6a4e929549419d46a7d, type: 3}
       propertyPath: m_Name
@@ -1352,6 +1356,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 58186671476417543aa46b41b9bff979, type: 2}
+    - target: {fileID: 4623880311552786313, guid: 11c6fe58c458d6a4e929549419d46a7d, type: 3}
+      propertyPath: team
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8293877687862343810, guid: 11c6fe58c458d6a4e929549419d46a7d, type: 3}
       propertyPath: m_Name
       value: GenericPurpleAgent (1)
