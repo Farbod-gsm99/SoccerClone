@@ -3,22 +3,22 @@
         "elo": 1200.0,
         "checkpoints": [
             {
-                "steps": 125544,
-                "file_path": "results\\First2v2Match\\SoccerTwos\\SoccerTwos-125544.onnx",
+                "steps": 45806,
+                "file_path": "results\\First2v2Match\\SoccerTwos\\SoccerTwos-45806.onnx",
                 "reward": 0.0,
-                "creation_time": 1791202995.412386,
+                "creation_time": 1791208565.6655135,
                 "auxillary_file_paths": [
-                    "results\\First2v2Match\\SoccerTwos\\SoccerTwos-125544.pt"
+                    "results\\First2v2Match\\SoccerTwos\\SoccerTwos-45806.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 125544,
+            "steps": 45806,
             "file_path": "results\\First2v2Match\\SoccerTwos.onnx",
             "reward": 0.0,
-            "creation_time": 1791202995.412386,
+            "creation_time": 1791208565.6655135,
             "auxillary_file_paths": [
-                "results\\First2v2Match\\SoccerTwos\\SoccerTwos-125544.pt"
+                "results\\First2v2Match\\SoccerTwos\\SoccerTwos-45806.pt"
             ]
         }
     },
